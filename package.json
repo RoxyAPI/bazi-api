@@ -1,0 +1,15 @@
+{
+  "name": "bazi-api",
+  "version": "0.1.0",
+  "private": false,
+  "type": "module",
+  "description": "BaZi API for Four Pillars of Destiny charts. Day Master, Ten Gods, hidden stems, Na Yin, and typed day, year and hour conventions echoed back.",
+  "license": "MIT",
+  "dependencies": {
+    "@roxyapi/sdk": "^1.2.70"
+  },
+  "scripts": {
+    "ts": "bun example.ts",
+    "js": "node example.js"
+  }
+}
