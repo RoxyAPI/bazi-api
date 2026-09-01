@@ -162,59 +162,66 @@ for (const p of data.pillars) {
       "position": "year",
       "id": "geng-wu",
       "number": 7,
-      "stem": { "id": "geng", "pinyin": "gēng", "element": "Metal", "polarity": "yang" },
-      "branch": { "id": "wu", "pinyin": "wǔ", "animal": "horse", "element": "Fire", "polarity": "yang" },
+      "stem": { "id": "geng", "chinese": "庚", "pinyin": "gēng", "element": "Metal", "polarity": "yang" },
+      "branch": { "id": "wu", "chinese": "午", "pinyin": "wǔ", "animal": "horse", "element": "Fire", "polarity": "yang" },
       "tenGod": {
         "id": "rob-wealth",
         "name": "Rob Wealth",
+        "chinese": "劫財",
+        "pinyin": "jié cái",
         "category": "peer",
         "keynote": "Drive, nerve, and competition for the same ground"
       },
       "hiddenStems": [
         {
-          "stem": { "id": "ding", "element": "Fire", "polarity": "yin" },
+          "stem": { "id": "ding", "chinese": "丁", "element": "Fire", "polarity": "yin" },
           "role": "principal",
-          "tenGod": { "id": "seven-killings", "name": "Seven Killings", "category": "influence" }
+          "tenGod": { "id": "seven-killings", "name": "Seven Killings", "chinese": "七殺", "pinyin": "qī shā", "category": "influence" }
         },
         {
-          "stem": { "id": "ji", "element": "Earth", "polarity": "yin" },
+          "stem": { "id": "ji", "chinese": "己", "element": "Earth", "polarity": "yin" },
           "role": "middle",
-          "tenGod": { "id": "indirect-resource", "name": "Indirect Resource", "category": "resource" }
+          "tenGod": { "id": "indirect-resource", "name": "Indirect Resource", "chinese": "偏印", "pinyin": "piān yìn", "category": "resource" }
         }
       ],
       "naYin": "Earth by the Roadside",
+      "naYinChinese": "路旁土",
       "naYinElement": "Earth"
     },
     {
       "position": "day",
       "id": "xin-hai",
       "number": 48,
-      "stem": { "id": "xin", "pinyin": "xīn", "element": "Metal", "polarity": "yin" },
-      "branch": { "id": "hai", "pinyin": "hài", "animal": "pig", "element": "Water", "polarity": "yin" },
+      "stem": { "id": "xin", "chinese": "辛", "pinyin": "xīn", "element": "Metal", "polarity": "yin" },
+      "branch": { "id": "hai", "chinese": "亥", "pinyin": "hài", "animal": "pig", "element": "Water", "polarity": "yin" },
       "tenGod": {
         "id": "day-master",
         "name": "Day Master",
+        "chinese": "日主",
+        "pinyin": "rì zhǔ",
         "category": "self",
         "keynote": "The self the whole chart is read from"
       },
       "hiddenStems": [
         {
-          "stem": { "id": "ren", "element": "Water", "polarity": "yang" },
+          "stem": { "id": "ren", "chinese": "壬", "element": "Water", "polarity": "yang" },
           "role": "principal",
-          "tenGod": { "id": "hurting-officer", "name": "Hurting Officer", "category": "output" }
+          "tenGod": { "id": "hurting-officer", "name": "Hurting Officer", "chinese": "傷官", "pinyin": "shāng guān", "category": "output" }
         },
         {
-          "stem": { "id": "jia", "element": "Wood", "polarity": "yang" },
+          "stem": { "id": "jia", "chinese": "甲", "element": "Wood", "polarity": "yang" },
           "role": "middle",
-          "tenGod": { "id": "direct-wealth", "name": "Direct Wealth", "category": "wealth" }
+          "tenGod": { "id": "direct-wealth", "name": "Direct Wealth", "chinese": "正財", "pinyin": "zhèng cái", "category": "wealth" }
         }
       ],
       "naYin": "Metal of Hairpin and Bracelet",
+      "naYinChinese": "釵釧金",
       "naYinElement": "Metal"
     }
   ],
   "dayMaster": {
     "stem": "xin",
+    "chinese": "辛",
     "pinyin": "xīn",
     "element": "Metal",
     "polarity": "yin",
@@ -249,7 +256,7 @@ for (const p of data.pillars) {
 }
 ```
 
-Abridged for reading. The live response returns all four pillars, one `fiveElements` entry per phase, every detected interaction, the full `dayMaster.nature` and `summary` paragraphs, and a `chinese` and `pinyin` field beside every identifier.
+Abridged for reading. The live response returns all four pillars, one `fiveElements` entry per phase, every detected interaction, a keynote on every hidden-stem ten god, and the full `dayMaster.nature` and `summary` paragraphs.
 
 | Field | Type | Description |
 |-------|------|-------------|
