@@ -2,7 +2,7 @@
 
 # BaZi API
 
-> BaZi API for the Four Pillars of Destiny. Year, month, day and hour pillars with every Heavenly Stem and Earthly Branch, the hidden stems inside each branch, the Ten Gods measured from the Day Master, the Na Yin sound element of each pair, the five element balance, and the clashes and combinations running between the pillars. The day boundary, year boundary and hour clock are typed request parameters, and every response echoes the conventions it was computed under. One key covers 14+ spiritual domains. MCP-first.
+> BaZi API for the Four Pillars of Destiny. Year, month, day and hour pillars with every Heavenly Stem and Earthly Branch, the hidden stems inside each branch, the Ten Gods measured from the Day Master, the Na Yin sound element of each pair, the five element balance, and the clashes and combinations running between the pillars. The day boundary, year boundary and hour clock are typed request parameters, and every response echoes the conventions it was computed under. One key covers 18+ spiritual domains. MCP-first.
 
 [![Get API Key](https://img.shields.io/badge/Get_API_Key-RoxyAPI-14b8a6?style=for-the-badge&logo=key&logoColor=white)](https://roxyapi.com/pricing)
 [![Try Live](https://img.shields.io/badge/Try_API_Live-Free_in_browser-22c55e?style=for-the-badge&logo=swagger&logoColor=white)](https://roxyapi.com/api-reference)
@@ -16,13 +16,13 @@ BaZi, the Four Pillars of Destiny, reads a birth moment as eight characters: a H
 
 The part most callers come here for is reproducibility. A Four Pillars chart is not one calculation, it is a family of them, and three separate school splits decide which chart you get. This BaZi calculator API types all three as request parameters with named defaults and echoes the applied set back in a `conventions` object on every response, so a chart says which reading it is instead of leaving you to guess. Point it at a published chart and you can reproduce that chart rather than argue with it.
 
-One subscription unlocks 14+ spiritual domains and 200+ endpoints: Western astrology, Vedic astrology, Forecast, Human Design, Chinese astrology, Feng Shui, numerology, tarot, biorhythm, I Ching, crystals, dreams, angel numbers and location.
+One subscription unlocks 18+ spiritual domains and 258+ endpoints: Western astrology, Vedic astrology, Forecast, Human Design, Chinese astrology, Feng Shui, Mesoamerican astrology, Vastu, numerology, Kabbalah, tarot, biorhythm, Ayurveda, I Ching, crystals, dreams, angel numbers and location.
 
 ## Why this API
 
 | Property | Value |
 |----------|-------|
-| Coverage | 14+ spiritual domains and 200+ endpoints in one subscription |
+| Coverage | 18+ spiritual domains and 258+ endpoints in one subscription |
 | Reproducibility | `dayBoundary`, `yearBoundary` and `hourClock` are typed request parameters with named defaults, echoed in a `conventions` object on every response |
 | Depth per call | Four pillars, hidden stems, Ten Gods, Na Yin, five element balance and pillar interactions in one request |
 | Languages | Ten on this domain: English plus nine locales, including Simplified and Traditional Chinese |
